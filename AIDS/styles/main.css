@@ -1,0 +1,86 @@
+body {
+  padding-bottom: 3rem;
+  color: rgb(82, 82, 82);
+}
+
+/*==!==!== CAROUSEL ==!==!==*/
+
+.carousel {
+  margin-bottom: 5rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-caption h1,
+.carousel-caption p {
+  color: #777;
+}
+
+.carousel-item {
+  height: 27rem;
+}
+
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 27rem;
+}
+
+/*==!==!== GIRLS ==!==!==*/
+
+.girls .girl {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.girls h2 {
+  font-weight: 400;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.girls p {
+  margin: 1rem;
+  font-size: 1.1rem;
+}
+
+.girl img {
+  height: 150px;
+  width: 150px;
+}
+
+/*==!==!== DESKTOP ==!==!==*/
+
+.desktop-heading {
+  margin-top: 1rem;
+}
+
+.desktop-img {
+  border-radius: .2rem;
+}
+
+.divider {
+  margin: 4rem 0;
+}
+
+/*==!==!== MEDIA ==!==!==*/
+
+@media (min-width: 40em) {
+
+  .carousel-caption p {
+    font-size: 1.3rem;
+  }
+
+  .desktop-heading {
+    font-size: 3rem;
+  }
+
+  .desktop-text {
+    font-size: 1.5rem;
+  }
+}
